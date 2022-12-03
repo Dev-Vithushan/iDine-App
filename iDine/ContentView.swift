@@ -8,23 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    let menu = Bundle.main.decode([MenuSection].self, from: "menu.json")
     var body: some View {
         NavigationStack{
             List {
-                Text("Hello this is vithushan")
-                Text("Hello this is vithushan")
-                Text("Hello this is vithushan")
-                Text("Hello this is vithushan")
-                
+                ForEach(menu) { section in
+                    Section(section.name) {
+                        ForEach(section.items) { items in
+                            ItemRow(item: item)
+                            
+                        }
+                    }
+                    }
+                }.navigationTitle("Menu")
+                .listStyle(.grouped)
             }
-            .navigationTitle("Menu")
+            
         }
        
     }
-}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+

@@ -15,6 +15,7 @@
 		7242260E293B2B1E00691DA6 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7242260D293B2B1E00691DA6 /* Order.swift */; };
 		72422610293B2B2400691DA6 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 7242260F293B2B2400691DA6 /* menu.json */; };
 		72422614293B2DB600691DA6 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72422613293B2DB600691DA6 /* Menu.swift */; };
+		72422616293B37D200691DA6 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72422615293B37D200691DA6 /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7242260D293B2B1E00691DA6 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = ../../../../Downloads/idine/Order.swift; sourceTree = "<group>"; };
 		7242260F293B2B2400691DA6 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = ../../../../Downloads/idine/menu.json; sourceTree = "<group>"; };
 		72422613293B2DB600691DA6 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../../../../Downloads/idine/Menu.swift; sourceTree = "<group>"; };
+		72422615293B37D200691DA6 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				724225FD293B28F300691DA6 /* iDineApp.swift */,
 				724225FF293B28F300691DA6 /* ContentView.swift */,
+				72422615293B37D200691DA6 /* ItemRow.swift */,
 				7242260B293B2AB100691DA6 /* Helper.swift */,
 				7242260D293B2B1E00691DA6 /* Order.swift */,
 				72422613293B2DB600691DA6 /* Menu.swift */,
@@ -153,6 +156,7 @@
 				72422600293B28F300691DA6 /* ContentView.swift in Sources */,
 				724225FE293B28F300691DA6 /* iDineApp.swift in Sources */,
 				7242260E293B2B1E00691DA6 /* Order.swift in Sources */,
+				72422616293B37D200691DA6 /* ItemRow.swift in Sources */,
 				7242260C293B2AB100691DA6 /* Helper.swift in Sources */,
 				72422614293B2DB600691DA6 /* Menu.swift in Sources */,
 			);
